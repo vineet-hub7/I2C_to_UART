@@ -1,7 +1,0 @@
-# Go Configure Software Hub build output — generated, never committed
-ffpga/build/
-
-# OS / editor cruft
-.DS_Store
-Thumbs.db
-*.swp

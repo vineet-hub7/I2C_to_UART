@@ -17,7 +17,10 @@
 from machine import Pin, UART, I2C, mem32
 import time
 import random
+import shrike
 
+shrike.flash("i2c_to_uart.bin")
+time.sleep(1)
 FPGA_ADDR = 0x50
 
 uart = UART(0, baudrate=115200, tx=Pin(0), rx=Pin(1))
